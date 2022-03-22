@@ -1,0 +1,66 @@
+body
+  {
+  background-color: #0093E9;
+  background-image: linear-gradient(45deg, #0093E9 0%, #80D0C7 84%);  
+  font-family: cursive;
+  }
+#heading
+  {
+    background-color: rgb(98, 169, 250);
+    border-radius: 10px;
+    border: 5px solid blue;
+    width: 100%;
+    margin: 0px;
+    font-weight: bold;
+    box-shadow:1px 1px 10px blue;
+    font-family: cursive;
+  }
+  .heading_div
+  {
+    background: white ; 
+    font-weight: 500;
+    border-radius: 20px; 
+    color: black;
+    box-shadow:1px 1px 5px blue;
+    float: none;
+    margin-top: 15px;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:1px 1px 10px rgba(0, 0, 255, 0.493);
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  .copy_right_footer
+  {
+    position: fixed;
+    background-color: ghostwhite;
+    color: black;
+    font-size: large;
+    width:100%;
+    bottom: 0;
+    text-align: center;
+    line-height: 3;
+    font-weight: bolder;
+    text-shadow: 0 0 3px #FF0000;
+  }
+ 
+  canvas{
+    border:5px solid white;
+    border-radius: 10px;
+    margin-top: 150px;
+    animation-name:box-shadow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes box-shadow{
+    from{box-shadow:1px 1px 40px 30px red;}
+    to{box-shadow:1px 1px 40px 30px blue;}
+  }
